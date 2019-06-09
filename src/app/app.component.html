@@ -37,6 +37,51 @@
         <td>slice :0: 5</td>
         <td>{{arreglo|slice : 0: 5}}</td>
       </tr>
+      <tr>
+        <td>{{PI}}</td>
+        <td>number :'3.0-0' </td>
+        <td>{{PI|number :'3.0-0'}}</td>
+      </tr>
+      <tr>
+        <td>{{PI}}</td>
+        <td>number :'1.0-0' </td>
+        <td>{{PI|number :'1.0-2'}}</td>
+      </tr>
+      <tr>
+        <td>{{a}}</td>
+        <td>number  </td>
+        <td>{{a| percent }}</td>
+      </tr>
+      <tr>
+        <td>{{a}}</td>
+        <td>number  </td>
+        <td>{{a| percent :'2.2-2'}}</td>
+      </tr>
+      <tr>
+        <td>{{value}}</td>
+        <td> currency  </td>
+        <td>{{ value | currency }}</td>
+      </tr>
+      <tr>
+        <td>{{value}}</td>
+        <td> currency:CLP  </td>
+        <td>{{ value | currency:'CLP' }}</td>
+      </tr>
+      <tr>
+        <td>{{value}}</td>
+        <td>  currency:CLP:true </td>
+        <td>{{ value | currency:'CLP':'symbolDisplay':'true'}}</td>
+      </tr>
+      <tr>
+        <td>{{value}}</td>
+        <td> currency:'CLP':true:'4.0-0'  </td>
+        <td>{{ value | currency:'CLP':true:'4.0-0' }}</td>
+      </tr>
+      <tr>
+        <td>{{value}}</td>
+        <td> number  </td>
+        <td>{{ value | number:'.2-2' }}</td>
+      </tr>
     </tbody>
   </table>
 </div>

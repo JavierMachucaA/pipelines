@@ -12,4 +12,9 @@ export class AppComponent {
   PI : number = Math.PI;
   a:number = 0.234;
   value : number =  120456.123;
+  video : string = "l401mf_cLwU";
+  nombreCompleto = "javier ignacio machuca arrendondo";
+  contrasena = "contrasena";
+  activar : boolean = true;
+
 }
